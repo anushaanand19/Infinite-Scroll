@@ -1,6 +1,6 @@
 const api_key = '1Dn-8u1ChH7JEErygr9OK0GM9O2umVVFlX0GrB0lbwQ';
 //For the first time, load 5 images 
-const count = 5;
+let count = 3;
 const apiURL = `https://api.unsplash.com/photos/random?client_id=${api_key}&count=${count}`;
 const imageElement = document.getElementById('image-element');
 let photos = [];
